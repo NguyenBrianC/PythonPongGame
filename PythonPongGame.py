@@ -56,6 +56,8 @@ def paddle_b_down():
     y -= 20
     paddle_b.sety(y)
 
+#Setting this note
+
 # Keyboard binding
 wn.listen()
 wn.onkeypress(paddle_a_up, "w")
